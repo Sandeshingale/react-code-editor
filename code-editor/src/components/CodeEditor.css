@@ -1,0 +1,59 @@
+
+
+
+.editor-container {
+    padding: 2rem;
+    background-color: #f2f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 251, 251, 0.1);
+    color: #080808;
+    width: 50%;
+    max-width: 500px;
+    height: 500px;
+    margin:auto;
+  }
+  
+  .language-selector {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-selector label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .language-selector select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #090909;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .language-selector select:focus {
+    outline: none;
+    border: 1px solid #eee8e8;
+  }
+
+  
+  .editor {
+    background-color: #f2e7e7;
+    border-radius: 20px;
+    padding: 1rem;
+    overflow: auto;
+    height: 20rem;
+    border: 2px solid #444;
+  }
+
+  .editor textarea{
+    border: none;
+    outline: none;
+  }
+  
+  pre{
+    margin: 0;
+  }
